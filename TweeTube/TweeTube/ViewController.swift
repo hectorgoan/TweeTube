@@ -6,19 +6,25 @@
 //
 
 import Cocoa
+import WebKit
 
 class ViewController: NSViewController {
+
+    @IBOutlet weak var twWebView: WKWebView!
+    @IBOutlet weak var ytWebView: WKWebView!
+    
+    let twUrl = "https://www.twitter.com/"
+    let ytUrl = "https://www.youtube.com/"
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-    }
-
-    override var representedObject: Any? {
-        didSet {
-        // Update the view, if already loaded.
-        }
+        let request = URLRequest(url: URL(string: twUrl)!)
+        twWebView.load(request)
+        
+        let ytrequest = URLRequest(url: URL(string: ytUrl)!)
+        ytWebView.load(ytrequest)
     }
 
 
