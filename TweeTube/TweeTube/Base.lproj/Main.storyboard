@@ -72,16 +72,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="1300" height="900"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <wkWebView wantsLayer="YES" fixedFrame="YES" allowsBackForwardNavigationGestures="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d2s-VK-4MU">
-                                <rect key="frame" x="820" y="0.0" width="480" height="900"/>
+                            <wkWebView wantsLayer="YES" fixedFrame="YES" customUserAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 13_2_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" allowsBackForwardNavigationGestures="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d2s-VK-4MU">
+                                <rect key="frame" x="974" y="0.0" width="326" height="900"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES"/>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
-                            <wkWebView wantsLayer="YES" fixedFrame="YES" allowsBackForwardNavigationGestures="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RAA-g5-HPB">
-                                <rect key="frame" x="0.0" y="0.0" width="820" height="900"/>
+                            <wkWebView wantsLayer="YES" fixedFrame="YES" customUserAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 13_2_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" allowsBackForwardNavigationGestures="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RAA-g5-HPB">
+                                <rect key="frame" x="0.0" y="0.0" width="974" height="900"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>

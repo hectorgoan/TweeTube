@@ -21,9 +21,11 @@ class ViewController: NSViewController {
 
         // Do any additional setup after loading the view.
         let request = URLRequest(url: URL(string: twUrl)!)
+        twWebView.configuration.preferences.isElementFullscreenEnabled = true
         twWebView.load(request)
         
         let ytrequest = URLRequest(url: URL(string: ytUrl)!)
+        ytWebView.configuration.preferences.isElementFullscreenEnabled = true
         ytWebView.load(ytrequest)
     }
 
